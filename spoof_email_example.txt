@@ -1,0 +1,13 @@
+From: Bank Support <support@bank-security.xyz>
+To: you@example.com
+Subject: Urgent: Verify your account now
+
+Dear Customer,
+
+We noticed suspicious activity on your account. Verify your account immediately to avoid suspension:
+Click here: https://bank.verify-account.xyz/confirm
+
+If you do not verify within 24 hours your account will be locked.
+
+Sincerely,
+Bank Support Team

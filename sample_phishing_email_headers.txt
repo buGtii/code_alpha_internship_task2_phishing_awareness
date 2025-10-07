@@ -1,0 +1,5 @@
+Return-Path: <no-reply@bank-security.xyz>
+Received: from unknown (HELO mx1.example.net) (203.0.113.5) by mail.google.com with SMTP; Tue, 30 Sep 2025 12:00:00 +0000
+Received-SPF: fail (google.com: domain of bank.com does not designate 203.0.113.5 as permitted sender) client-ip=203.0.113.5;
+Authentication-Results: mx.google.com; spf=fail (sender IP is not authorized) smtp.mailfrom=bank.com; dkim=none
+From: Bank Support <support@bank-security.xyz>
