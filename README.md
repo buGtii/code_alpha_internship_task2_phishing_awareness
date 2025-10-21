@@ -1,6 +1,6 @@
-# code_alpha_internship_task2_phishing_awareness
+# phishing_awareness
 
-TASK 2 — Phishing Awareness (Lab Demo)
+Phishing Awareness (Lab Demo)
 
 **Intern:** Muhammad Faisal  
 **Date:** 2025-09-30  
