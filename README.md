@@ -8,7 +8,7 @@ Phishing Awareness (Lab Demo)
 ---
 
 ## Purpose
-This folder contains a safe, educational phishing demonstration page and artifacts for the CodeAlpha internship. The page is intentionally simple and designed for lab-controlled testing only — **do not** use real production credentials or deploy this on public systems.
+This folder contains a safe, educational phishing demonstration page and artifacts. The page is intentionally simple and designed for lab-controlled testing only — **do not** use real production credentials or deploy this on public systems.
 
 The demo teaches:
 - How phishing pages often look and behave
